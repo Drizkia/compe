@@ -9,16 +9,16 @@ int main () {
     int T;
     cin >> T;
 
-    vector<int> bil(T);
+    vector<long long> bil(T);
 
     for (int i = 0; i < T; i++) {
         cin >> bil[i];
 
-        int N = 1 << bil[i];
+        long long N = pow(2, bil[i]);
 
         if(N >= 10) {
         string str = to_string(N);
-        int sum = 0;
+        long long sum = 0;
             for(char c : str) {
                 sum += c - '0';
             }
