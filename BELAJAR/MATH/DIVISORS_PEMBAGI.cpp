@@ -52,4 +52,6 @@ int main() {
         cout << n << " is a prime number\n";
     else
         cout << n << " is NOT a prime number\n";
+    
+    findDivisors(n);
 }
