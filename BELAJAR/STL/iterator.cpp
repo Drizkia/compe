@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std;
 
+// {5, 6, 7, 8, 9} itr 7 (size = N/2)
+
+// (++itr) buat geserin iterator ke indexs selanjutnya (ke 8 or 9)
+// (--itr) buat geserin iterator ke indexs sebelumnya (ke 6 or 5)
+
 void data_tengah_tanpa_Iterator() {
     vector<int> data {10, 20, 30, 40, 50};
     int N = data.size();
