@@ -24,9 +24,24 @@ bool isPrime(int n) {
     return true;
 }
 
+// Ini nentuin FAKTOR habis dibagi ...
+void findDivisors(int n) {
+   for (int i = 1; i * i <= n; i++) {  //(i * i <= n) adalah representasi dari sqrt() (akar pangkat)
+      if (n % i == 0) {
+         if (n / i == i) {
+            cout << i << " " << endl;
+         }
+         else {
+            cout << i << " " << n / i << " " << endl;
+         }
+      }
+   }
+   cout << endl;
+}
+
 int main() {
-    int n, a, b;
-    cin >> n >> a >> b;
+    int n;
+    cin >> n;
 
     vector<int> d = getDivisors(n);
     cout << "Divisors: ";
