@@ -25,8 +25,8 @@ bool isPrime(int n) {
 }
 
 int main() {
-    int n;
-    cin >> n;
+    int n, a, b;
+    cin >> n >> a >> b;
 
     vector<int> d = getDivisors(n);
     cout << "Divisors: ";
