@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "toki9fnewcpp": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "complex": "cpp"
     }
 }

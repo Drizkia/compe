@@ -1,0 +1,1 @@
+{"name":"Local: dew","url":"/home/zylxn/compe/dew.cpp","tests":[{"id":1754683168399,"input":"5 5\n1 2 1 2 1\n2 3 5 6 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/zylxn/compe/dew.cpp","group":"local","local":true}
