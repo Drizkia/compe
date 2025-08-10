@@ -37,5 +37,4 @@ int main() {
         }
         cout << A[i] << " " << prefix[i] << "\n"; //Keluarin per index
     }
-    
 }

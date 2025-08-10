@@ -2,15 +2,17 @@
 using namespace std;
 
 int main() {
-    vector<int> v;
+    vector<int> v = {1, 3, 3, 5, 7};
+    int X = 3;
 
-    int X, N;
-        cin >> N;
-        cin >> X;
+    // LOWER_BOUND
+    auto it_low = lower_bound(v.begin(), v.end(), X);
+    int idx_low = it_low - v.begin();
 
-    // lower_bound
-    for (int i = 0; i < N; i++) {
-        int lb = lower_bound(v[i + 1], v[i - 1], X)/2;
-    }
-    cout << "Lower bound index: " << lb << "\n";
+    // UPPER_BOUND
+    auto it_up = upper_bound(v.begin(), v.end(), X);
+    int idx_up = it_up - v.begin();
+
+    cout << "Lower bound index : " << idx_low << " (nilai = " << *it_low << ")\n";
+    cout << "Upper bound index : " << idx_up << " (nilai = " << *it_up << ")\n";
 }

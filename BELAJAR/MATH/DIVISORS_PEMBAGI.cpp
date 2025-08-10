@@ -6,7 +6,7 @@ using namespace std;
 //klo pembagi lebih dari 1 dan N maka bukan prima
 vector<int> getDivisors(int n) {
     vector<int> div;
-    for (int i = 1; i*i <= n; i++) {
+    for (int i = 1; i * i <= n; i++) {
         if (n % i == 0) {
             div.push_back(i);       // <- ini Divisors
             if (i != n / i)
