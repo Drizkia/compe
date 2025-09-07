@@ -1,0 +1,1 @@
+{"name":"Local: Kartu","url":"/home/zylxn/compe/SELEKSI SCPC/Kartu.cpp","tests":[{"id":1755920226726,"input":"2\n2 5\n4 7","output":""},{"id":1755920244415,"input":"2\n5 7\n5 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/zylxn/compe/SELEKSI SCPC/Kartu.cpp","group":"local","local":true}
